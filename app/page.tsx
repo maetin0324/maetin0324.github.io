@@ -2,7 +2,6 @@ import { BsTwitter } from 'react-icons/bs';
 import { AiFillGithub } from 'react-icons/ai';
 import { IconContext } from 'react-icons';
 import Link from 'next/link';
-import '../app/ico.css';
 
 export default function Home() {
   return (
