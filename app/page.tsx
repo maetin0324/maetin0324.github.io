@@ -17,7 +17,7 @@ export default function Home() {
               target="_blank"
               className="text-blue-500 hover:underline"
             >
-              Twitter
+              @maetin_coins
             </Link>
           </li>
           <li>
@@ -26,7 +26,7 @@ export default function Home() {
               target="_blank"
               className="text-blue-500 hover:underline"
             >
-              GitHub
+              maetin0324
             </Link>
           </li>
         </ul>
