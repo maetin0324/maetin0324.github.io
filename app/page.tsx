@@ -12,12 +12,20 @@ export default function Home() {
         <h3 className="text-4xl font-bold mt-8">まえちん</h3>
         <ul className="flex mt-4">
           <li className="mr-4">
-            <Link href="https://twitter.com/maetin_coins" target="_blank" className="text-blue-500 hover:underline">
+            <Link
+              href="https://twitter.com/maetin_coins"
+              target="_blank"
+              className="text-blue-500 hover:underline"
+            >
               Twitter
             </Link>
           </li>
           <li>
-            <Link href="https://github.com/maetin0324" target="_blank" className="text-blue-500 hover:underline">
+            <Link
+              href="https://github.com/maetin0324"
+              target="_blank"
+              className="text-blue-500 hover:underline"
+            >
               GitHub
             </Link>
           </li>
