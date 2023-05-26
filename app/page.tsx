@@ -29,7 +29,7 @@ export default function Home() {
             </Link>
           </li>
         </ul>
-        {/* <div className="flex items-center justify-center mt-4">
+        <div className="flex items-center justify-center mt-4">
           <IconContext.Provider value={{ color: '#1e90ff', size: '40px' }}>
             <Link rel="twitter" href="https://twitter.com/maetin_coins" target="_blank">
               <BsTwitter className="ico BsTwitter"/>
@@ -40,7 +40,7 @@ export default function Home() {
               <AiFillGithub className="ico AiFillGithub"/>
             </Link>
           </IconContext.Provider>
-        </div> */}
+        </div>
       </div>
     </main>
   );
