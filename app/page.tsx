@@ -1,5 +1,6 @@
 import { BsTwitter } from 'react-icons/bs';
 import { AiFillGithub } from 'react-icons/ai';
+import { FaFolder } from 'react-icons/fa';
 import { IconContext } from 'react-icons';
 import Link from 'next/link';
 
@@ -16,31 +17,19 @@ export default function Home() {
               target="_blank"
               className="text-blue-500 hover:underline"
             >
-              @maetin_coins
+              <h5 className="text-6xl p-10">
+                <BsTwitter />
+              </h5>
             </Link>
           </li>
           <li>
-            <Link
-              href="https://github.com/maetin0324"
-              target="_blank"
-              className="text-blue-500 hover:underline"
-            >
-              maetin0324
+            <Link href="https://github.com/maetin0324" target="_blank" className="hover:underline">
+              <h5 className="text-6xl p-10">
+                <AiFillGithub />
+              </h5>
             </Link>
           </li>
         </ul>
-        <div className="flex items-center justify-center mt-4">
-          <IconContext.Provider value={{ color: '#1e90ff', size: '40px' }}>
-            <Link rel="twitter" href="https://twitter.com/maetin_coins" target="_blank">
-              <BsTwitter className="ico BsTwitter" />
-            </Link>
-          </IconContext.Provider>
-          <IconContext.Provider value={{ color: '#000000', size: '40px' }}>
-            <Link rel="github" href="https://github.com/maetin0324" target="_blank">
-              <AiFillGithub className="ico AiFillGithub" />
-            </Link>
-          </IconContext.Provider>
-        </div>
       </div>
     </main>
   );
