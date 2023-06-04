@@ -17,14 +17,14 @@ export default function Home() {
             target="_blank"
             className="text-blue-500 hover:underline"
           >
-            <h5 className="text-5xl p-10">
+            <h5 className="text-4xl p-5">
               <BsTwitter />
             </h5>
           </Link>
         </li>
         <li>
           <Link href="https://github.com/maetin0324" target="_blank" className="hover:underline">
-            <h5 className="text-5xl p-10">
+            <h5 className="text-4xl p-5">
               <AiFillGithub />
             </h5>
           </Link>
