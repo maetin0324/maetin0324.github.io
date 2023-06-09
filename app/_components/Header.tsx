@@ -8,10 +8,10 @@ const Header = () => {
           maetin.dev
         </Link>
         <div className="ml-auto space-x-6 text-lg">
-        <Link href="/about" className="font-mono ">
-          about
-        </Link>
-      </div>
+          <Link href="/about" className="font-mono ">
+            about
+          </Link>
+        </div>
       </div>
     </header>
   );
