@@ -8,7 +8,7 @@ export default function Home() {
   return (
     <div className="flex flex-col items-center justify-center">
       <img src="/maetin.jpg" alt="maetin" className="w-28 h-28 rounded-full" />
-      <h3 className="text-4xl font-bold mt-8">まえちん</h3>
+      <h3 className="text-4xl font-sans mt-8">maetin</h3>
       <p className="text-gray-500 mt-2">全方位ワナビ</p>
       <ul className="flex mt-4">
         <li className="mr-4">
