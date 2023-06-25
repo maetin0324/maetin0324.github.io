@@ -7,7 +7,7 @@ export default function About() {
         <img src="/maetin.jpg" alt="maetin" className="w-28 h-28 rounded-full" />
       </div>
       <div className="mx-8">
-        <p className="text-4xl  mt-8">maetin</p>
+        <p className="text-4xl text-slate-700  mt-8">maetin</p>
         <p className="text-xl text-gray-500 mt-2">プロフィール</p>
       </div>
       <div className="profile-detail">
