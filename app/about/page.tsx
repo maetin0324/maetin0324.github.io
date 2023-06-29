@@ -30,8 +30,8 @@ export default function About() {
               Rubyなどを中心に色々なことに手を伸ばしています
             </li>
             <li>Ruby on Railsをフルスタックフレームワークとして用いた実務経験が一年ほどあります</li>
-            <li>Git, Githubのbranch操作やPR, mergeなどは一通りできます</li>
-            <li>CLIで生きていくのに不足無い程度のLinux知識があります</li>
+            <li>Git, Githubのbranch操作やPR, review, mergeなどは一通りできます</li>
+            <li>大学の授業でLinuxのカーネルハックをやったため多少Linuxが分かります</li>
             <li>
               触ったことのある言語は習熟度順に以下の通りです
               <ul>
@@ -44,6 +44,13 @@ export default function About() {
               </ul>
             </li>
             <li>英語はドキュメント解読程度ならできます</li>
+          </ul>
+        </div>
+        <div>
+          <h2>資格等</h2>
+          <ul>
+            <li>応用情報技術者試験 合格</li>
+            <li>普通自動車免許（眼鏡等）</li>
           </ul>
         </div>
         <div>
