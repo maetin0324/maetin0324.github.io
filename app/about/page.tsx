@@ -51,6 +51,7 @@ export default function About() {
           <ul>
             <li>応用情報技術者試験 合格</li>
             <li>普通自動車免許（眼鏡等）</li>
+            <li>普通自動二輪免許（眼鏡等）</li>
           </ul>
         </div>
         <div>
