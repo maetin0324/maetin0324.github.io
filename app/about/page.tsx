@@ -42,6 +42,9 @@ export default function About() {
                 <li>HTML, Sass CSS, Tailwind CSS</li>
                 <li>C</li>
                 <li>React, Next.js</li>
+                <li>C#</li>
+                <li>Go</li>
+                <li>Rust</li>
               </ul>
             </li>
             <li>英語はドキュメント解読程度ならできます</li>
