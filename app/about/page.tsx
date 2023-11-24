@@ -31,7 +31,7 @@ export default function About() {
               Rubyなどを中心に色々なことに手を伸ばしています
             </li>
             <li>Ruby on Railsをフルスタックフレームワークとして用いた実務経験が一年ほどあります</li>
-            <li>Git, Githubのbranch操作やPR, review, mergeなどは一通りできます</li>
+            <li>Git, GitHubのbranch操作やPR, review, mergeなどは一通りできます</li>
             <li>大学の授業でLinuxのカーネルハックをやったため多少Linuxが分かります</li>
             <li>
               触ったことのある言語は習熟度順に以下の通りです
