@@ -65,7 +65,7 @@ export default function About() {
           <h2>興味があること</h2>
           <ul>
             <li>カーネルなどの低レイヤ開発、仮想化技術</li>
-            <li>プロトコルスタック自作</li> 
+            <li>プロトコルスタック自作</li>
             <li>言語処理系の自作</li>
             <li>Rustを用いた開発</li>
             <li>自宅ネットワークの構築</li>
@@ -78,7 +78,10 @@ export default function About() {
           <h2>趣味</h2>
           <ul>
             <li>プログラミングをやったりやらなかったりします</li>
-            <li>バイクは走ると風を感じれたり、体を傾けると曲がれたりするので面白いです。 現在はSuzukiのGSX-S125に乗っています</li>
+            <li>
+              バイクは走ると風を感じれたり、体を傾けると曲がれたりするので面白いです。
+              現在はSuzukiのGSX-S125に乗っています
+            </li>
             <li>Yuta ImaiやMassive New KrewなどのHardstyle composerのクラブイベントに行きます</li>
           </ul>
         </div>
