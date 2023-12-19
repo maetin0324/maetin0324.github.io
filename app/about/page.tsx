@@ -15,6 +15,8 @@ export default function About() {
           <h2>経歴</h2>
           <ul>
             <li>筑波大学 情報学群情報科学類 (2021/04 ~ )</li>
+            <li>筑波大学HPCS研究室 システムソフトウェアチーム(2023/12 ~ )</li>
+            <li>株式会社emostyle エンジニアインターン(2023/10 ~ )</li>
             <li>Sansan株式会社 就業型エンジニアインターン(2023/08 ~ 2023/09)</li>
             <li>WORD編集部 (2023/06 ~)</li>
             <li>株式会社Techouse エンジニアインターン(2022/08 ~ 2023/06)</li>
@@ -28,11 +30,12 @@ export default function About() {
           <ul>
             <li>
               大学に入ってからプログラミング学習をはじめ、Python,
-              Rubyなどを中心に色々なことに手を伸ばしています
+              Rubyなどを中心にシステムプログラムなど色々なことに手を伸ばしています
             </li>
             <li>Ruby on Railsをフルスタックフレームワークとして用いた実務経験が一年ほどあります</li>
             <li>Git, GitHubのbranch操作やPR, review, mergeなどは一通りできます</li>
             <li>大学の授業でLinuxのカーネルハックをやったため多少Linuxが分かります</li>
+            <li>自宅にRasberry pi 4Bを利用したWireguard VPNとnas(4TB)を構築しています</li>
             <li>
               触ったことのある言語は習熟度順に以下の通りです
               <ul>
@@ -62,11 +65,11 @@ export default function About() {
           <h2>興味があること</h2>
           <ul>
             <li>カーネルなどの低レイヤ開発、仮想化技術</li>
+            <li>プロトコルスタック自作</li> 
             <li>言語処理系の自作</li>
             <li>Rustを用いた開発</li>
             <li>自宅ネットワークの構築</li>
             <li>最新のWeb技術、フレームワークを触る</li>
-            <li>Solidityを用いたスマートコントラクト作成</li>
             <li>etc...</li>
           </ul>
           <p>興味がありやってみたいことに対して能力が全く追いつかず、困っています</p>
@@ -75,8 +78,7 @@ export default function About() {
           <h2>趣味</h2>
           <ul>
             <li>プログラミングをやったりやらなかったりします</li>
-            <li>ダーツをやります、真ん中に刺さると気持ちいいです</li>
-            <li>バイクは走ると風を感じれたり、体を傾けると曲がれたりするので面白いです</li>
+            <li>バイクは走ると風を感じれたり、体を傾けると曲がれたりするので面白いです。 現在はSuzukiのGSX-S125に乗っています</li>
             <li>Yuta ImaiやMassive New KrewなどのHardstyle composerのクラブイベントに行きます</li>
           </ul>
         </div>
