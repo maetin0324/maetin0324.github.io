@@ -35,13 +35,13 @@ export default function About() {
             <li>Ruby on Railsをフルスタックフレームワークとして用いた実務経験が一年ほどあります</li>
             <li>Git, GitHubのbranch操作やPR, review, mergeなどは一通りできます</li>
             <li>大学の授業でLinuxのカーネルハックをやったため多少Linuxが分かります</li>
-            <li>自宅にRasberry pi 4Bを利用したWireguard VPNとnas(4TB)を構築しています</li>
+            <li>自宅にRasberry pi 4Bを利用したWireguard VPNとNAS(4TB)を構築しています</li>
             <li>
               触ったことのある言語は習熟度順に以下の通りです
               <ul>
                 <li>Ruby</li>
                 <li>Python</li>
-                <li>JavaScript, Typescript</li>
+                <li>JavaScript, TypeScript</li>
                 <li>HTML, Sass CSS, Tailwind CSS</li>
                 <li>C</li>
                 <li>React, Next.js</li>
