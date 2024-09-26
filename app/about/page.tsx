@@ -28,10 +28,13 @@ export default function About() {
           <h2>できること</h2>
           <ul>
             <li>
-              大学に入ってからプログラミング学習をはじめ、Rust, Ruby, Wasmなどを中心に色々遊んでいます
+              大学に入ってからプログラミング学習をはじめ、Rust, Ruby,
+              Wasmなどを中心に色々遊んでいます
             </li>
             <li>Ruby on Railsをフルスタックフレームワークとして用いた実務経験が二年ほどあります</li>
-            <li>WebAssemblyランタイムを自作したことがあり、Wasmの仕様や挙動はある程度知識があります</li>
+            <li>
+              WebAssemblyランタイムを自作したことがあり、Wasmの仕様や挙動はある程度知識があります
+            </li>
             <li>Linuxカーネルソースは程々に読みます</li>
             <li>自宅にRasberry pi 4Bを利用したWireguard VPNとNAS(4TB)を構築しています</li>
             <li>
