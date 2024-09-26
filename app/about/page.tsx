@@ -21,8 +21,6 @@ export default function About() {
             <li>Sansan株式会社 就業型エンジニアインターン(2023/08 ~ 2023/09)</li>
             <li>WORD編集部 (2023/06 ~)</li>
             <li>株式会社Techouse エンジニアインターン(2022/08 ~ 2023/06)</li>
-            <li>学内イベント掲示板サービス Weego 開発 (2021/12 ~ 2022/08) </li>
-            <li>Haitlab 6期生 (2021/08 ~ 2021/09)</li>
             <li>私立芝高校 (2018/04 ~ 2021/03)</li>
           </ul>
         </div>
@@ -30,17 +28,17 @@ export default function About() {
           <h2>できること</h2>
           <ul>
             <li>
-              大学に入ってからプログラミング学習をはじめ、Python,
-              Rubyなどを中心にシステムプログラムなど色々なことに手を伸ばしています
+              大学に入ってからプログラミング学習をはじめ、Rust, Ruby, Wasmなどを中心に色々遊んでいます
             </li>
-            <li>Ruby on Railsをフルスタックフレームワークとして用いた実務経験が一年ほどあります</li>
-            <li>Git, GitHubのbranch操作やPR, review, mergeなどは一通りできます</li>
-            <li>大学の授業でLinuxのカーネルハックをやったため多少Linuxが分かります</li>
+            <li>Ruby on Railsをフルスタックフレームワークとして用いた実務経験が二年ほどあります</li>
+            <li>WebAssemblyランタイムを自作したことがあり、Wasmの仕様や挙動はある程度知識があります</li>
+            <li>Linuxカーネルソースは程々に読みます</li>
             <li>自宅にRasberry pi 4Bを利用したWireguard VPNとNAS(4TB)を構築しています</li>
             <li>
               触ったことのある言語は習熟度順に以下の通りです
               <ul>
                 <li>Ruby</li>
+                <li>Rust</li>
                 <li>Python</li>
                 <li>JavaScript, TypeScript</li>
                 <li>HTML, Sass CSS, Tailwind CSS</li>
@@ -48,7 +46,6 @@ export default function About() {
                 <li>React, Next.js</li>
                 <li>C#</li>
                 <li>Go</li>
-                <li>Rust</li>
               </ul>
             </li>
             <li>英語はドキュメント解読程度ならできます</li>
@@ -65,12 +62,11 @@ export default function About() {
         <div>
           <h2>興味があること</h2>
           <ul>
-            <li>カーネルなどの低レイヤ開発、仮想化技術</li>
-            <li>プロトコルスタック自作</li>
-            <li>言語処理系の自作</li>
             <li>Rustを用いた開発</li>
+            <li>非同期処理・ランタイム</li>
+            <li>カーネルなどの低レイヤ開発、仮想化技術</li>
+            <li>プロトコルスタック・言語処理系など様々を自作</li>
             <li>自宅ネットワークの構築</li>
-            <li>最新のWeb技術、フレームワークを触る</li>
             <li>etc...</li>
           </ul>
           <p>興味がありやってみたいことに対して能力が全く追いつかず、困っています</p>
@@ -84,6 +80,7 @@ export default function About() {
               現在はSuzukiのGSX-S125に乗っています
             </li>
             <li>Yuta ImaiやMassive New KrewなどのHardstyle composerのクラブイベントに行きます</li>
+            <li>しぐれういが好きです</li>
           </ul>
         </div>
       </div>
