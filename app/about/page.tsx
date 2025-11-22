@@ -69,12 +69,15 @@ export default function About() {
             <li className="flex items-start">
               <span className="inline-block w-2 h-2 bg-accent-500 rounded-full mt-2 mr-3 flex-shrink-0"></span>
               <span>
-                大学に入ってからプログラミング学習をはじめ、Rust, Ruby, Wasmなどを中心に色々遊んでいます
+                大学に入ってからプログラミング学習をはじめ、Rust, Ruby,
+                Wasmなどを中心に色々遊んでいます
               </span>
             </li>
             <li className="flex items-start">
               <span className="inline-block w-2 h-2 bg-accent-500 rounded-full mt-2 mr-3 flex-shrink-0"></span>
-              <span>Ruby on Railsをフルスタックフレームワークとして用いた実務経験が二年ほどあります</span>
+              <span>
+                Ruby on Railsをフルスタックフレームワークとして用いた実務経験が二年ほどあります
+              </span>
             </li>
             <li className="flex items-start">
               <span className="inline-block w-2 h-2 bg-accent-500 rounded-full mt-2 mr-3 flex-shrink-0"></span>
@@ -95,16 +98,24 @@ export default function About() {
               <div>
                 <span className="block mb-2">触ったことのある言語は習熟度順に以下の通りです</span>
                 <div className="flex flex-wrap gap-2 ml-5">
-                  {['Ruby', 'Rust', 'Python', 'JavaScript / TypeScript', 'HTML / CSS', 'C', 'React / Next.js', 'C#', 'Go'].map(
-                    (lang) => (
-                      <span
-                        key={lang}
-                        className="px-3 py-1 bg-slate-100 dark:bg-slate-700 text-sm rounded-full"
-                      >
-                        {lang}
-                      </span>
-                    )
-                  )}
+                  {[
+                    'Ruby',
+                    'Rust',
+                    'Python',
+                    'JavaScript / TypeScript',
+                    'HTML / CSS',
+                    'C',
+                    'React / Next.js',
+                    'C#',
+                    'Go',
+                  ].map((lang) => (
+                    <span
+                      key={lang}
+                      className="px-3 py-1 bg-slate-100 dark:bg-slate-700 text-sm rounded-full"
+                    >
+                      {lang}
+                    </span>
+                  ))}
                 </div>
               </div>
             </li>
@@ -191,7 +202,9 @@ export default function About() {
             </li>
             <li className="flex items-start">
               <span className="inline-block w-2 h-2 bg-primary-500 rounded-full mt-2 mr-3 flex-shrink-0"></span>
-              <span>Yuta ImaiやMassive New KrewなどのHardstyle composerのクラブイベントに行きます</span>
+              <span>
+                Yuta ImaiやMassive New KrewなどのHardstyle composerのクラブイベントに行きます
+              </span>
             </li>
             <li className="flex items-start">
               <span className="inline-block w-2 h-2 bg-primary-500 rounded-full mt-2 mr-3 flex-shrink-0"></span>
