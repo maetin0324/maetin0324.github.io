@@ -2,21 +2,45 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+@layer base {
+  :root {
+    --foreground-rgb: 30, 41, 59;
+    --background-start-rgb: 248, 250, 252;
+    --background-end-rgb: 226, 232, 240;
+  }
+
+  .dark {
+    --foreground-rgb: 248, 250, 252;
+    --background-start-rgb: 15, 23, 42;
+    --background-end-rgb: 30, 41, 59;
+  }
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
+@layer components {
+  .glass-morphism {
+    @apply bg-white/30 backdrop-blur-md border border-white/20;
+  }
+
+  .card-base {
+    @apply bg-white dark:bg-slate-800 rounded-xl shadow-card hover:shadow-card-hover transition-all duration-300;
+  }
+
+  .text-gradient {
+    @apply bg-gradient-to-r from-primary-600 to-accent-600 bg-clip-text text-transparent;
   }
 }
 
 body {
   color: rgb(var(--foreground-rgb));
-  background-color: #d3def1;
+  background: linear-gradient(
+    135deg,
+    rgb(var(--background-start-rgb)) 0%,
+    rgb(var(--background-end-rgb)) 100%
+  );
+  background-attachment: fixed;
+  min-height: 100vh;
+}
+
+html {
+  scroll-behavior: smooth;
 }
