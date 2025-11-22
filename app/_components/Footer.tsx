@@ -1,3 +1,5 @@
+'use client';
+
 const Footer = () => {
   return (
     <footer className="mt-auto backdrop-blur-lg bg-white/50 dark:bg-slate-900/50 border-t border-slate-200/50 dark:border-slate-700/50">
