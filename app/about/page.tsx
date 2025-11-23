@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function About() {
   return (
     <div className="my-0 mx-auto max-w-4xl px-4 md:px-6 animate-fade-in">
@@ -88,13 +90,19 @@ export default function About() {
             <li className="flex items-start">
               <span className="inline-block w-2 h-2 bg-accent-500 rounded-full mt-2 mr-3 flex-shrink-0"></span>
               <span>
-                Ruby on Railsをフルスタックフレームワークとして用いた実務経験が二年ほどあります
+                複数の企業で長期間Webバックエンドエンジニアインターンを経験しており、バックエンドの設計や実装などは一通りできます。
               </span>
             </li>
             <li className="flex items-start">
               <span className="inline-block w-2 h-2 bg-accent-500 rounded-full mt-2 mr-3 flex-shrink-0"></span>
               <span>
                 WebAssemblyランタイムを自作したことがあり、Wasmの仕様や挙動はある程度知識があります
+              </span>
+            </li>
+            <li className="flex items-start">
+              <span className="inline-block w-2 h-2 bg-accent-500 rounded-full mt-2 mr-3 flex-shrink-0"></span>
+              <span>
+                非同期処理に関して、Rust非同期ランタイム自作やO'Reilly社の<Link href="https://www.oreilly.co.jp/books/9784814401185/">Async Rust</Link>訳註編集、査読などを通じてある程度理解しています。
               </span>
             </li>
             <li className="flex items-start">
