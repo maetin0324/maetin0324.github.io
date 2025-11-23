@@ -22,6 +22,14 @@ const Header = () => {
           </Link>
           <ThemeToggle />
         </nav>
+        <nav className="ml-auto flex items-center space-x-4 md:space-x-8">
+          <Link
+            href="https://zenn.dev/maetin"
+            className="font-mono text-base md:text-lg text-slate-700 dark:text-slate-300 hover:text-primary-600 dark:hover:text-primary-400 transition-all duration-200 hover:scale-105"
+          >
+            blog
+          </Link>
+        </nav>
       </div>
     </header>
   );
