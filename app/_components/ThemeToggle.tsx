@@ -2,8 +2,25 @@
 
 import { useTheme } from './ThemeProvider';
 import { BsSun, BsMoon } from 'react-icons/bs';
+import { useEffect, useState } from 'react';
 
 export default function ThemeToggle() {
+  const [mounted, setMounted] = useState(false);
+
+  useEffect(() => {
+    setMounted(true);
+  }, []);
+
+  // Don't render anything on server-side to avoid hydration mismatch
+  if (!mounted) {
+    return <div className="p-2 w-9 h-9 rounded-full bg-slate-200 dark:bg-slate-700" />;
+  }
+
+  // Only call useTheme on client-side after mount
+  return <ThemeToggleClient />;
+}
+
+function ThemeToggleClient() {
   const { theme, toggleTheme } = useTheme();
 
   return (
