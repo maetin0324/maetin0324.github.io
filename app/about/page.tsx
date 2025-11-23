@@ -1,4 +1,4 @@
-import Link from "next/link";
+import Link from 'next/link';
 
 export default function About() {
   return (
@@ -102,7 +102,9 @@ export default function About() {
             <li className="flex items-start">
               <span className="inline-block w-2 h-2 bg-accent-500 rounded-full mt-2 mr-3 flex-shrink-0"></span>
               <span>
-                非同期処理に関して、Rust非同期ランタイム自作やO'Reilly社の<Link href="https://www.oreilly.co.jp/books/9784814401185/">Async Rust</Link>訳註編集、査読などを通じてある程度理解しています。
+                非同期処理に関して、Rust非同期ランタイム自作やO'Reilly社の
+                <Link href="https://www.oreilly.co.jp/books/9784814401185/">Async Rust</Link>
+                訳註編集、査読などを通じてある程度理解しています。
               </span>
             </li>
             <li className="flex items-start">
@@ -163,6 +165,107 @@ export default function About() {
             <li className="flex items-start">
               <span className="inline-block w-2 h-2 bg-primary-500 rounded-full mt-2 mr-3 flex-shrink-0"></span>
               <span>普通自動二輪免許（眼鏡等）</span>
+            </li>
+          </ul>
+        </div>
+
+        {/* Publications */}
+        <div className="card-base p-6 md:p-8 animate-slide-up">
+          <h2 className="text-2xl font-bold text-slate-800 dark:text-slate-100 border-b-2 border-accent-500 pb-3 mb-6">
+            Publications
+          </h2>
+          <ul className="space-y-4 text-slate-700 dark:text-slate-300">
+            {/* Template: Copy this item to add a new publication
+            <li className="flex flex-col space-y-2">
+              <div className="flex items-start">
+                <span className="inline-block w-2 h-2 bg-accent-500 rounded-full mt-2 mr-3 flex-shrink-0"></span>
+                <div className="flex-1">
+                  <p className="font-semibold">論文タイトル</p>
+                  <p className="text-sm text-slate-600 dark:text-slate-400 mt-1">
+                    著者名1, 著者名2, 著者名3
+                  </p>
+                  <p className="text-sm text-slate-500 dark:text-slate-500 mt-1">
+                    学会名・ジャーナル名, Vol. XX, No. XX, pp. XX-XX, 年月
+                  </p>
+                  <a
+                    href="https://example.com"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-sm text-primary-600 dark:text-primary-400 hover:underline mt-1 inline-block"
+                  >
+                    [Link]
+                  </a>
+                </div>
+              </div>
+            </li>
+            */}
+
+            {/* Example entry */}
+            <li className="flex flex-col space-y-2">
+              <div className="flex items-start">
+                <span className="inline-block w-2 h-2 bg-accent-500 rounded-full mt-2 mr-3 flex-shrink-0"></span>
+                <div className="flex-1">
+                  <p className="font-semibold">Pluvio: アドホックファイルシステムのためのzero-copy I/O非同期ランタイムの設計</p>
+                  <p className="text-sm text-slate-600 dark:text-slate-400 mt-1">
+                    前田 椋祐, 中野 将生, 建部 修見
+                  </p>
+                  <p className="text-sm text-slate-500 dark:text-slate-500 mt-1">
+                    SWoPP2025, 第200回HPC研究会
+                  </p>
+                  <a
+                    href="https://www.ipsj.or.jp/kenkyukai/event/hpc200.html"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-sm text-primary-600 dark:text-primary-400 hover:underline mt-1 inline-block"
+                  >
+                    [Link]
+                  </a>
+                </div>
+              </div>
+            </li>
+            <li className="flex flex-col space-y-2">
+              <div className="flex items-start">
+                <span className="inline-block w-2 h-2 bg-accent-500 rounded-full mt-2 mr-3 flex-shrink-0"></span>
+                <div className="flex-1">
+                  <p className="font-semibold">Async Rust(査読・訳註編集)</p>
+                  <p className="text-sm text-slate-600 dark:text-slate-400 mt-1">
+                    
+                  </p>
+                  <p className="text-sm text-slate-500 dark:text-slate-500 mt-1">
+                    {/* SWoPP2025, 第200回HPC研究会 */}
+                  </p>
+                  <a
+                    href="https://www.ipsj.or.jp/kenkyukai/event/hpc200.html"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-sm text-primary-600 dark:text-primary-400 hover:underline mt-1 inline-block"
+                  >
+                    [Link]
+                  </a>
+                </div>
+              </div>
+            </li>
+            <li className="flex flex-col space-y-2">
+              <div className="flex items-start">
+                <span className="inline-block w-2 h-2 bg-accent-500 rounded-full mt-2 mr-3 flex-shrink-0"></span>
+                <div className="flex-1">
+                  <p className="font-semibold">分散ファイルシステムにおける通信イベントとI/Oイベントの非同期スケジューリングを統合した非同期I/Oの性能評価</p>
+                  <p className="text-sm text-slate-600 dark:text-slate-400 mt-1">
+                    前田 椋祐, 中野 将生, 建部 修見
+                  </p>
+                  <p className="text-sm text-slate-500 dark:text-slate-500 mt-1">
+                    第197回HPC研究会
+                  </p>
+                  <a
+                    href="https://jglobal.jst.go.jp/detail?JGLOBAL_ID=202502261760400487"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-sm text-primary-600 dark:text-primary-400 hover:underline mt-1 inline-block"
+                  >
+                    [Link]
+                  </a>
+                </div>
+              </div>
             </li>
           </ul>
         </div>
