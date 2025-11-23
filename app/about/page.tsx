@@ -113,7 +113,10 @@ export default function About() {
             </li>
             <li className="flex items-start">
               <span className="inline-block w-2 h-2 bg-accent-500 rounded-full mt-2 mr-3 flex-shrink-0"></span>
-              <span>自宅にRaspberry Pi 4Bを利用したWireguard VPNとTrueNAS OSとミニPCを用いたNAS(8*3TB)を構築しています</span>
+              <span>
+                自宅にRaspberry Pi 4Bを利用したWireguard VPNとTrueNAS
+                OSとミニPCを用いたNAS(8*3TB)を構築しています
+              </span>
             </li>
             {/* <li className="flex items-start">
               <span className="inline-block w-2 h-2 bg-accent-500 rounded-full mt-2 mr-3 flex-shrink-0"></span>
