@@ -235,7 +235,7 @@ export default function About() {
                     {/* SWoPP2025, 第200回HPC研究会 */}
                   </p>
                   <a
-                    href="https://www.ipsj.or.jp/kenkyukai/event/hpc200.html"
+                    href="https://www.oreilly.co.jp/books/9784814401185/"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-sm text-primary-600 dark:text-primary-400 hover:underline mt-1 inline-block"
@@ -288,15 +288,15 @@ export default function About() {
             </li>
             <li className="flex items-start">
               <span className="inline-block w-2 h-2 bg-accent-500 rounded-full mt-2 mr-3 flex-shrink-0"></span>
+              <span>分散ストレージシステム</span>
+            </li>
+            <li className="flex items-start">
+              <span className="inline-block w-2 h-2 bg-accent-500 rounded-full mt-2 mr-3 flex-shrink-0"></span>
               <span>カーネルなどの低レイヤ開発、仮想化技術</span>
             </li>
             <li className="flex items-start">
               <span className="inline-block w-2 h-2 bg-accent-500 rounded-full mt-2 mr-3 flex-shrink-0"></span>
-              <span>プロトコルスタック・言語処理系など様々を自作</span>
-            </li>
-            <li className="flex items-start">
-              <span className="inline-block w-2 h-2 bg-accent-500 rounded-full mt-2 mr-3 flex-shrink-0"></span>
-              <span>自宅ネットワークの構築</span>
+              <span>プロトコルスタック・言語処理系・RDMBSなど様々の自作</span>
             </li>
             <li className="flex items-start">
               <span className="inline-block w-2 h-2 bg-accent-500 rounded-full mt-2 mr-3 flex-shrink-0"></span>
