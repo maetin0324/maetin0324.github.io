@@ -230,9 +230,11 @@ export default function About() {
                 <span className="inline-block w-2 h-2 bg-accent-500 rounded-full mt-2 mr-3 flex-shrink-0"></span>
                 <div className="flex-1">
                   <p className="font-semibold">Async Rust(査読・訳註編集)</p>
-                  <p className="text-sm text-slate-600 dark:text-slate-400 mt-1"></p>
+                  <p className="text-sm text-slate-600 dark:text-slate-400 mt-1">
+                    Maxwell Flitton、Caroline Morton　著、中田 秀基　訳
+                  </p>
                   <p className="text-sm text-slate-500 dark:text-slate-500 mt-1">
-                    {/* SWoPP2025, 第200回HPC研究会 */}
+                    オライリー・ジャパン株式会社, 2025年7月刊行
                   </p>
                   <a
                     href="https://www.oreilly.co.jp/books/9784814401185/"
