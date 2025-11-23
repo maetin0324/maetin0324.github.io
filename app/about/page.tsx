@@ -205,7 +205,9 @@ export default function About() {
               <div className="flex items-start">
                 <span className="inline-block w-2 h-2 bg-accent-500 rounded-full mt-2 mr-3 flex-shrink-0"></span>
                 <div className="flex-1">
-                  <p className="font-semibold">Pluvio: アドホックファイルシステムのためのzero-copy I/O非同期ランタイムの設計</p>
+                  <p className="font-semibold">
+                    Pluvio: アドホックファイルシステムのためのzero-copy I/O非同期ランタイムの設計
+                  </p>
                   <p className="text-sm text-slate-600 dark:text-slate-400 mt-1">
                     前田 椋祐, 中野 将生, 建部 修見
                   </p>
@@ -228,9 +230,7 @@ export default function About() {
                 <span className="inline-block w-2 h-2 bg-accent-500 rounded-full mt-2 mr-3 flex-shrink-0"></span>
                 <div className="flex-1">
                   <p className="font-semibold">Async Rust(査読・訳註編集)</p>
-                  <p className="text-sm text-slate-600 dark:text-slate-400 mt-1">
-                    
-                  </p>
+                  <p className="text-sm text-slate-600 dark:text-slate-400 mt-1"></p>
                   <p className="text-sm text-slate-500 dark:text-slate-500 mt-1">
                     {/* SWoPP2025, 第200回HPC研究会 */}
                   </p>
@@ -249,7 +249,9 @@ export default function About() {
               <div className="flex items-start">
                 <span className="inline-block w-2 h-2 bg-accent-500 rounded-full mt-2 mr-3 flex-shrink-0"></span>
                 <div className="flex-1">
-                  <p className="font-semibold">分散ファイルシステムにおける通信イベントとI/Oイベントの非同期スケジューリングを統合した非同期I/Oの性能評価</p>
+                  <p className="font-semibold">
+                    分散ファイルシステムにおける通信イベントとI/Oイベントの非同期スケジューリングを統合した非同期I/Oの性能評価
+                  </p>
                   <p className="text-sm text-slate-600 dark:text-slate-400 mt-1">
                     前田 椋祐, 中野 将生, 建部 修見
                   </p>
