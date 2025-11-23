@@ -27,11 +27,23 @@ export default function About() {
           <ul className="space-y-3 text-slate-700 dark:text-slate-300">
             <li className="flex items-start">
               <span className="inline-block w-2 h-2 bg-primary-500 rounded-full mt-2 mr-3 flex-shrink-0"></span>
-              <span>筑波大学 情報学群情報科学類 (2021/04 ~ )</span>
+              <span>筑波大学 システム情報工学研究群情報理工学位P 博士前期課程(2025/04 ~ )</span>
             </li>
             <li className="flex items-start">
               <span className="inline-block w-2 h-2 bg-primary-500 rounded-full mt-2 mr-3 flex-shrink-0"></span>
               <span>筑波大学HPCS研究室 システムソフトウェアチーム (2023/12 ~ )</span>
+            </li>
+            <li className="flex items-start">
+              <span className="inline-block w-2 h-2 bg-primary-500 rounded-full mt-2 mr-3 flex-shrink-0"></span>
+              <span>株式会社Preferred Networks ストレージエンジニアインターン(2025/08)</span>
+            </li>
+            <li className="flex items-start">
+              <span className="inline-block w-2 h-2 bg-primary-500 rounded-full mt-2 mr-3 flex-shrink-0"></span>
+              <span>株式会社ArkEdge Space エンジニアインターン(2025/03 ~ 2025/05)</span>
+            </li>
+            <li className="flex items-start">
+              <span className="inline-block w-2 h-2 bg-primary-500 rounded-full mt-2 mr-3 flex-shrink-0"></span>
+              <span>筑波大学 情報学群情報科学類 (2021/04 ~ 2025/03)</span>
             </li>
             <li className="flex items-start">
               <span className="inline-block w-2 h-2 bg-primary-500 rounded-full mt-2 mr-3 flex-shrink-0"></span>
