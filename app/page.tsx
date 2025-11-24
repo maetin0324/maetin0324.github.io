@@ -23,9 +23,9 @@ export default function Home() {
       </p>
 
       <p className="text-base md:text-lg text-slate-500 dark:text-slate-500 mt-6 max-w-md text-center animate-slide-up leading-relaxed">
-        筑波大学でシステムソフトウェアを研究中。
+        筑波大学でシステムソフトウェア/ストレージシステムを研究中。
         <br />
-        Rust / WebAssembly / 低レイヤに興味があります。
+        Rust / 非同期処理 / 低レイヤに興味があります。
       </p>
 
       <div className="flex gap-4 mt-8 animate-slide-up">
@@ -54,7 +54,7 @@ export default function Home() {
         href="/about"
         className="mt-12 px-8 py-3 bg-gradient-to-r from-primary-600 to-accent-600 text-white font-medium rounded-full shadow-card hover:shadow-card-hover transition-all duration-300 hover:scale-105 animate-slide-up"
       >
-        もっと詳しく
+        More About Me
       </Link>
     </div>
   );
