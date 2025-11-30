@@ -53,7 +53,7 @@ export default function About() {
             </li>
             <li className="flex items-start">
               <span className="inline-block w-2 h-2 bg-primary-500 rounded-full mt-2 mr-3 flex-shrink-0"></span>
-              <span>株式会社emostyle エンジニアインターン (2023/10 ~ )</span>
+              <span>株式会社emostyle エンジニアインターン (2023/10 ~ 2024/12)</span>
             </li>
             <li className="flex items-start">
               <span className="inline-block w-2 h-2 bg-primary-500 rounded-full mt-2 mr-3 flex-shrink-0"></span>
